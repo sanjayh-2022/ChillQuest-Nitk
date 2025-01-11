@@ -49,14 +49,14 @@ module.exports = {
     themes: [ 
       { 
         greenquest: {
-          primary: "#4caf50", // Red for buttons and titles
-          secondary: "#e53935", // Green for user messages
+          primary: "#146c22", // Red for buttons and titles
+          secondary: "#7e1608", // Green for user messages
           neutral: "black", // Dark gray for chat background
-          "base-300": "#121212", // Dark black-gray for card background
+          "base-300": "#080101", // Dark black-gray for card background
           "primary-content": "#fefefe", // White for readability
           "secondary-content": "#c8e6c9", // Light green for inputs
           "base-100": "black",
-          "base-200": "#121212"
+          "base-200": "#080101"
         },
       },
     ],

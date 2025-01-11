@@ -33,13 +33,13 @@ const performanceData = [
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-base-100">
-      <div className="flex flex-col gap-6 p-8 max-w-7xl mx-auto">
+    <div className="min-h-screen bg-gradient-to-r from-black via-red-950 to-black animate-bgMove opacity-100 z-0">
+      <div className="flex flex-col gap-6 p-10 max-w-7xl mx-auto">
       <header className="flex justify-center items-center text-center pt-8">
         
   <div>
   
-    <AnimatedShinyText className="text-5xl text-bold text-secondary">Red Heist Successful!</AnimatedShinyText>
+    <AnimatedShinyText className="text-4xl text-extrabold text-red-900">Red Heist Successful!</AnimatedShinyText>
     <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
     <p className="text-base-content/70">Insights, Predictions, and Financial Metrics made more accessible to you!</p>
     </AnimatedShinyText>

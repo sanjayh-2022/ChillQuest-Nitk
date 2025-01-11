@@ -44,7 +44,7 @@ const TheProfessor: React.FC = () => {
             >
               <div
                 className={`chat-bubble ${
-                  message.type === "user" ? "bg-base-200 text-secondary-content" : "bg-base-200 text-primary-content"
+                  message.type === "user" ? "bg-green-950 text-secondary-content" : "bg-gray-900 text-primary-content"
                 }`}
               >
                 {message.text}
