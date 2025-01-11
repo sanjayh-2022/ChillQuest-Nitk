@@ -2,7 +2,7 @@
 
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import { useState, useEffect } from "react";
-import TheProfessor from '@/components/ui/theprofessor';
+import TheProfessor from '@/components/ui/TheProfessor';
 import { Montserrat } from "@next/font/google";
 import { Gcomponent } from '@/components/ui/graph';
 
